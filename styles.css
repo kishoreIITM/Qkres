@@ -24,13 +24,14 @@ nav{
   height: 100%; 
   width: 100%;
   /* Center and scale the image nicely */
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .land-text{
   margin-bottom: 150px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.6;
 }
 .land-text h1{
@@ -48,14 +49,44 @@ nav{
 .btn:hover{
   background-color: rgb(41, 29, 53);
 }
-.facilities{
+.why{
   height: 100%;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+.facilities{
+  padding-top: 10px;
+  background-image: url("img/table.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+.swiper-container{
+  height: 90%;
+  width: 90%;
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+  size: 40px;
+}
+
+footer{
+  background-color: rgb(216, 229, 236, 0.96);
+  padding-top: 20px;
+
+}
+
 
 @media (max-width:768px){
   nav{
-    background-color: rgb(107, 122, 126,0.96);
+    background-color: rgba(19, 15, 41, 0.96);
   }
   .nav-head{
     font-size: 20px;
@@ -69,6 +100,16 @@ nav{
   .btn{
     margin: 10px;
     font-size: 15px;
+  }
+  .swiper-container{
+    height: auto;
+    font-size: 10px;
+  }
+  .why{
+    height: auto;
+  }
+  .facilities{
+    height: auto;
   }
 }
 
