@@ -1,2 +1,0 @@
-# Qkres
-Website home page
