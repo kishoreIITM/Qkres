@@ -71,7 +71,9 @@ nav{
   height: 90%;
   width: 90%;
 }
-
+.swiper-container .btn{
+  font-size: 100%;
+}
 
 .swiper-pagination-bullet-active {
   background-color: black !important;
@@ -81,8 +83,12 @@ nav{
 footer{
   background-color: rgb(216, 229, 236, 0.96);
   padding-top: 20px;
-
 }
+.how{
+  padding: 8%;
+  
+}
+
 
 
 @media (max-width:768px){
